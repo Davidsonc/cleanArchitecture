@@ -27,6 +27,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "@testing-library/jest-dom"],
+  "include": ["src", "configs", ".eslintrc.cjs", "@testing-library/jest-dom"],
+  "exclude": ["node_modules", "dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
